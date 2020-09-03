@@ -32,4 +32,12 @@ public class TaskResource {
 
         return this.taskService.persistTask(task);
     }
+
+    @GET
+    @Path("/next/{topic}/{task}")
+    public Task getNextActiveTask(@PathParam("topic") String topic, @PathParam("task") String task) {
+        System.out.println("Topic: " + topic);
+        System.out.println("Task: " + task);
+        return this.taskService.getNextActive(topic, task);
+    }
 }
