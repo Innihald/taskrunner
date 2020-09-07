@@ -1,10 +1,10 @@
-package de.drentech.innihald.taskrunner.domain.model;
+package de.drentech.innihald.taskrunner.task;
 
+import de.drentech.innihald.taskrunner.task.payload.Payload;
 import io.quarkus.mongodb.panache.MongoEntity;
 import org.bson.types.ObjectId;
 
 import java.time.LocalDateTime;
-import java.util.Dictionary;
 import java.util.List;
 
 @MongoEntity(collection = "Task")

@@ -1,7 +1,5 @@
-package de.drentech.innihald.taskrunner.service;
+package de.drentech.innihald.taskrunner.task;
 
-import de.drentech.innihald.taskrunner.domain.model.Task;
-import de.drentech.innihald.taskrunner.domain.repository.TaskRepository;
 import io.quarkus.panache.common.Sort;
 
 import javax.enterprise.context.ApplicationScoped;

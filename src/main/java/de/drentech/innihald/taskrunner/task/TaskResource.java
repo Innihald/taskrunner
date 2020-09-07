@@ -1,11 +1,6 @@
-package de.drentech.innihald.taskrunner.http.resource;
+package de.drentech.innihald.taskrunner.task;
 
 
-import de.drentech.innihald.taskrunner.domain.model.Task;
-import de.drentech.innihald.taskrunner.domain.repository.TaskRepository;
-import de.drentech.innihald.taskrunner.service.TaskService;
-
-import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;

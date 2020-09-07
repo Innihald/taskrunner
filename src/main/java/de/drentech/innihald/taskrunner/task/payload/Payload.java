@@ -1,4 +1,4 @@
-package de.drentech.innihald.taskrunner.domain.model;
+package de.drentech.innihald.taskrunner.task.payload;
 
 public class Payload {
     public String key;
